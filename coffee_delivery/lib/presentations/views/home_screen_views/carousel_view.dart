@@ -14,7 +14,7 @@ class _StakWidgetState extends State<StakWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 100, top: 230),
+      padding: const EdgeInsets.only( top: 230),
       child: Container(
         height: 260,
         width: 200,

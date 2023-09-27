@@ -1,5 +1,4 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:coffee_delivery/presentations/screens.dart/detail_screen.dart';
 import 'package:coffee_delivery/presentations/views/home_screen_views/card_view.dart';
 import 'package:coffee_delivery/presentations/views/home_screen_views/carousel_view.dart';
 import 'package:coffee_delivery/services/contants/colors.dart';
@@ -108,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       autoPlay: true,
                       initialPage: 0,
                       enlargeCenterPage: true,
-                      enableInfiniteScroll: true,
+                      viewportFraction: 0.69,
                       enlargeFactor: .25,
                       aspectRatio: 1.5 / 2,
                       enlargeStrategy: CenterPageEnlargeStrategy.height
